@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A46E6A2-40B9-445E-9077-2BBBDCF93FB5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Adventure</RootNamespace>
+    <AssemblyName>Adventure</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61QKhYL+eCL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glossy-blue-button-md.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageedit_0_5950354302.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2689916322_01a2e102a1_b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lightning.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_JasonWeingart.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9a01f4dd70afc9f56db858194f82e0e1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d1w6fm5-83b5e79f-092e-4949-b8b5-fa54af25d52c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20180706_20186D_2F5A5428_1361x900.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1498811008858-d95a730b2ffc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drive-by-shootings-in-nevada-law-explained-by-las-vegas-criminal-defense-attorneys.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skull and Crossbones-307402.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-Skull_&amp;_crossbones.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pudo-1024x683.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_right.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toyota.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\160107123248-reporter-stabbing-israel-demonstration-pkg-00015217-super-169.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Featured_Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alley.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neutral-face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GettyImages-917964260-5c314da946e0fb0001a99a62.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iStock-108269216.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man-waking-up-from-bad-dream.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5e59910aa9f40c36a432f853.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drake-married.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1azy71.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rain_Inside_House-Mark_DiAngelo-323934112.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thunder_strike_1-Mike_Koenig-739781745.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spooky_drone-Mike_Koenig-200134226.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Store_Door_Chime-Mike_Koenig-570742973.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drawer Slide Close-SoundBible.com-35853910.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gun_battle_sound-ReamProductions-1158375208.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heart Rate Monitor Flatline-SoundBible.com-2063567528.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sigh-SoundBible.com-1679973774.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\167385__ultradust__wood-block-tick-tock-cartoon-clock.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stab-SoundBible.com-766875573.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\511685__tatianafeudal__failed-car-start.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\462324__davidjuradoh__motorcycle-01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\353925__dr-skitz__boo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[ONTIVA.COM]-WHEN YOU GET ROBBED BY A TORONTO HOOD MAN-HQ-[Trimmed by Rev.com].wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43806__daveincamas__siren.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\144702__tekgnosis__police.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\66050__robinhood76__00817-wake-up-1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[ONTIVA.COM] Drake - Not You Too ft.Chris Brown %28Acapella_Vocals%29 April 30, 2020-HQ-[Trimmed by Rev.com].wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\513253__honeybone82__victory.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Motorbike-SoundBible.com-784603027.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2617182f5741e342bef7e8abae497cea--jamberry-business-moleskine.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\you-decide-10-728.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\171200__robinhood76__03823-game-over.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
